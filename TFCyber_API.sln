@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFCyber_API", "TFCyber_API\TFCyber_API.csproj", "{2049A5CE-C69A-4DA8-815F-A6AF8ADAEB0C}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ContactDB", "ContactDB\ContactDB.sqlproj", "{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionContact_DAL", "GestionContact_DAL\GestionContact_DAL.csproj", "{68924778-3D52-479F-A065-C850EDAFC666}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2049A5CE-C69A-4DA8-815F-A6AF8ADAEB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2049A5CE-C69A-4DA8-815F-A6AF8ADAEB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2049A5CE-C69A-4DA8-815F-A6AF8ADAEB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2049A5CE-C69A-4DA8-815F-A6AF8ADAEB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FDD18BF-4C31-4C8A-9F0F-32F667FB9ED4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{68924778-3D52-479F-A065-C850EDAFC666}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68924778-3D52-479F-A065-C850EDAFC666}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68924778-3D52-479F-A065-C850EDAFC666}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68924778-3D52-479F-A065-C850EDAFC666}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {922A5CEE-C4FA-4A9C-B937-420C06450CBE}
+	EndGlobalSection
+EndGlobal
